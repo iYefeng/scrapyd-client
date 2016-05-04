@@ -14,7 +14,7 @@ setup_args = {
     'maintainer_email': 'info@scrapy.org',
     'license': 'BSD',
     'packages': ['scrapyd-client'],
-    'scripts': ['scrapyd-client/scrapyd-deploy'],
+    'scripts': ['scrapyd-client/scrapyd-deploy', 'scrapyd-client/scrapyd-client'],
     'include_package_data': True,
     'zip_safe': False,
     'classifiers': [
